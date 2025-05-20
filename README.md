@@ -4,7 +4,7 @@ Este projeto tem como objetivo identificar a bandeira de um cartão de crédito 
 
 ## Como funciona
 
-O script `validador.py` contém uma função chamada `identificar_bandeira`, que recebe o número do cartão (com ou sem espaços) e retorna a bandeira correspondente, como Visa, MasterCard, Elo, American Express, Discover, Hipercard, JCB, Voyager, entre outras.
+O script `validador.py` contém uma função chamada `identificar_bandeira`, que recebe o número do cartão (sem espaços) e retorna a bandeira correspondente, como Visa, MasterCard, Elo, American Express, Discover, Hipercard, JCB, Voyager, entre outras.
 
 A identificação é feita através de expressões regulares que verificam os prefixos e o tamanho do número do cartão, conforme as regras de cada bandeira.
 
